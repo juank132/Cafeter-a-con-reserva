@@ -1,0 +1,56 @@
+.contenedor{
+    display: flex;
+    position: relative;
+    height: 40%;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    padding: .5em;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.caja h1{
+    margin-bottom: 1em;
+}
+
+.caja input{
+    width: 80%;
+    margin-bottom: 1em;
+    padding: .3em;
+}
+
+.caja button{
+    color: beige;
+    background-color: rgb(139,107,83,255);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 4em;
+    width: 4em;
+    bottom: 0;
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.caja button:hover{
+    background-color:  rgb(63, 41, 18);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.errorI {
+    color: rgb(232, 64, 64);
+    margin-bottom: 1em;
+}

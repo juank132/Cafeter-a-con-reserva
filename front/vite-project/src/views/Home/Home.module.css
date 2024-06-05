@@ -1,0 +1,153 @@
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 35vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor2 {
+    position: relative;
+    width: 100%;
+    height: 35vw;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.contenedor2 h2 {
+    color:  rgb(139,107,83,255) ;
+    position: relative;
+    display: flex;
+    top:5%;
+    margin-left: 4em;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: .2em;
+}
+
+.contenedor2 p{
+    color:rgb(139,107,83,255) ;
+    position: absolute;
+    display: flex;
+    height: 25vw;
+    width: 30vw;
+    top:7vw;
+    margin-top: 3vw;
+    margin-left: 1vw;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.contenedor2 img{
+    position: relative;
+    height: 30vw;
+    top: 4em;
+    left: 40vw;
+    margin-left: 1em ;
+    
+}
+
+.titulo {
+    position: relative;
+    font-size: 6em;
+    color: beige;
+    top: .5em;
+}
+
+.letra {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: beige;
+    display: inline;
+    position: relative;
+    letter-spacing: .2em;
+    top: 3.5em;
+    width: 100px;
+}
+
+.boton {
+    display: flex;
+    height: 2em;
+    position: relative;
+    font-size: 2.5em;
+    top: 3em;
+    justify-content: center;
+    
+}
+
+
+
+.boton h2 a{
+    text-decoration: none;
+    padding: .7em;
+    color: beige;
+
+}
+
+.boton h2{
+    color: beige;
+    border-radius: 100px;
+    position: relative;
+    background-color: rgb(139,107,83,255);
+    align-content: center;
+    transition: .3s;
+}
+
+.boton h2:hover {
+    background-color: rgb(63, 41, 18) ;
+    transform: scale(1.1);
+}
+
+.letra2 {
+    font-size: 1.2em;
+    font-weight: 1000;
+    color: beige;
+    display: inline;
+    position: relative;
+    letter-spacing: .2em;
+    top: 10vw;
+    width: 100px;
+}
+
+.back {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(https://upload.wikimedia.org/wikipedia/commons/c/cd/Hogwarts_%2829353868725%29.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size:cover;
+    overflow: hidden;
+    z-index: -1000;
+}
+
+.back2 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(https://a-static.besthdwallpaper.com/hogwarts-hall-from-harry-potter-movie-wallpaper-1920x1200-108072_6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size:cover;
+    overflow: hidden;
+    z-index: -1000;
+}
+
+section {
+    display: block;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.fondo {
+    display: block;
+    background-color: beige;
+    height: 40vw;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer {
+    display: block;
+    background-color:  rgb(139,107,83,255);
+    height: 15vw;
+    justify-content: center;
+    align-content: center;
+}
